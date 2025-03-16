@@ -12,7 +12,7 @@ clock = pygame.time.Clock()
 
 font = pygame.font.Font("freesansbold.ttf", 25)
 
-textbox = pygame.Rect(0, 0, screen.width, 100)
+textbox = pygame.Rect(0, 0, screen.get_width(), 100)
 
 textbox_pos = 0
 
